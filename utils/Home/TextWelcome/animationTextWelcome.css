@@ -1,0 +1,256 @@
+.letter0{
+    color: #86b8b1;
+    animation-name: intro;
+    animation-duration: 0.3s;
+    animation-delay: .15s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter1{
+    color: #86b8b1;
+    animation-name: intro1;
+    animation-duration: 0.3s;
+    animation-delay: .25s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro1 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter2{
+    color: #86b8b1;
+    animation-name: intro2;
+    animation-duration: 0.3s;
+    animation-delay: .35s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro2 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter3{
+    color: #86b8b1;
+    animation-name: intro3;
+    animation-duration: 0.3s;
+    animation-delay: .45s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro3 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+
+.letter4{
+    color: #86b8b1;
+    animation-name: intro4;
+    animation-duration: 0.3s;
+    animation-delay: .55s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro4 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter5{
+    color: #86b8b1;
+    animation-name: intro5;
+    animation-duration: 0.3s;
+    animation-delay: .65s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro5 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+
+.letter6{
+    color: #86b8b1;
+    animation-name: intro6;
+    animation-duration: 0.3s;
+    animation-delay: .75s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro6 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+
+.letter7{
+    color: #86b8b1;
+    animation-name: intro7;
+    animation-duration: 0.3s;
+    animation-delay: .85s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro7 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter8{
+    color: #86b8b1;
+    animation-name: intro8;
+    animation-duration: 0.3s;
+    animation-delay: .95s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro8 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter9{
+    color: #86b8b1;
+    animation-name: intro9;
+    animation-duration: 0.3s;
+    animation-delay: 1.05s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro9 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter10{
+    color: #86b8b1;
+    animation-name: intro10;
+    animation-duration: 0.3s;
+    animation-delay: 1.15s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro10 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter11{
+    color: #86b8b1;
+    animation-name: intro11;
+    animation-duration: 0.3s;
+    animation-delay:1.25s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all .2s;
+}
+
+@keyframes intro11 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter12{
+    color: #86b8b1;
+    animation-name: intro12;
+    animation-duration: 0.3s;
+    animation-delay: 1.35s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro12 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+.letter13{
+    color: #86b8b1;
+    animation-name: intro13;
+    animation-duration: 0.3s;
+    animation-delay: 1.45s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.2s;
+}
+
+@keyframes intro13 {
+    from{
+        color:#86b8b1 ;
+    }to{
+       color: #3d1c00; 
+    }
+}
+
+.fixedBg{
+    background-color: #3d1c00;
+    animation-name: fixedbg;
+    animation-duration:2.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    transition: all 0.5s;
+}
+@keyframes fixedbg {
+    0%{background-color:transparent ;}
+    60%{background-color:transparent ;}
+    100%{background-color:#3d1c00 ;}
+
+}

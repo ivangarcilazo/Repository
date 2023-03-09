@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    gap: .5vw;
+
+    transition: all 0.3s;
+}
+
+.img{
+    width: 2.5vw;
+}
+.contImg{
+    width: 2.7vw;
+    border-radius: 3vw;
+}
+.text{
+    color: rgb(199, 199, 199);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0;
+    width:0vw;
+    transition: all 0.3s;
+}
+
+.container:hover .text{
+    width:3vw;
+    opacity: 1;
+    position: relative;
+    
+}

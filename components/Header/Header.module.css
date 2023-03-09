@@ -1,0 +1,22 @@
+.header{
+    background-color: #301700;
+  
+    height: 100vh;
+    position: relative;
+
+    box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
+    -moz-box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
+    z-index: 1;
+
+    width: 6vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    transition: all 0.3s;
+}
+.header:hover{
+    width: 11vw;
+}

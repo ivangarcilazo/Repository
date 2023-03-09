@@ -1,0 +1,17 @@
+.text{
+    font-size: 6vw;
+    border-radius: 1vw;
+    padding-left: 0.4vw;
+
+}
+
+.letter{
+    color: #86b8b1;
+    cursor:default;
+
+}
+.letter:hover{
+    color:#ebf2f2;
+  
+}
+
