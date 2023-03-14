@@ -1,18 +1,15 @@
-import "../styles/globals.css"
+import '../styles/globals.css'
 
-import Header from "@/components/Header/Header"
+import Header from '@/components/Header/Header'
 
-
-
-
-export default function RootLayout({ children }) {
+export default function RootLayout ({ children }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
         <title>Ivan G.</title>
       </head>
       <body>
-        <Header/>
+        <Header />
         {children}
       </body>
     </html>

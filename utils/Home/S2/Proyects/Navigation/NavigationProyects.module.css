@@ -1,0 +1,19 @@
+.container{
+    padding: 0.5vw;
+    border-radius: 1vw;
+    background-color: #ebf2f269;
+    backdrop-filter: blur(4px);
+}
+.containerProyects{
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    gap: 4vw;
+}
+
+.images{
+    width: 25vw;
+    border-radius: 1vw;
+}
+.font{
+    color:#285650ca ;
+}

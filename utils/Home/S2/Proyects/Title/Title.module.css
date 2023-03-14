@@ -1,0 +1,30 @@
+.container{
+    display: block;
+    align-self: flex-start;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+
+}
+.title{
+    font-size: 9vw;
+    margin-left: 3vw;
+    position: absolute;
+    color: #bcebdf;
+    cursor:default;
+    z-index: -1;
+    user-select: none;
+}
+.title1{
+    position: absolute;
+    font-size: 5vw;
+    margin-left: 3vw;
+    color: #86b8b1  ;
+    cursor: default;
+
+}
+.letterEffect{
+    transition: all 0.2s;
+}
+.letterEffect:hover{
+    color: #ebf2f2;
+}

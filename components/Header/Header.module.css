@@ -1,22 +1,61 @@
 .header{
-    background-color: #301700;
-  
+    background-color: #301700ce;
+    backdrop-filter: blur(4px);
     height: 100vh;
-    position: relative;
+    width: 5vw;
+
+    position: fixed;
+    top: 0px;
 
     box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
     -webkit-box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
     -moz-box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
-    z-index: 1;
 
-    width: 6vw;
+    z-index:5;
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+
     transition: all 0.3s;
+
+    animation-name: h;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+@keyframes h {
+    from{opacity: 0;}
+    to{opacity: 1
+        ;}
 }
 .header:hover{
     width: 11vw;
+}
+
+.headerTop{
+    background-color: #395d58b0;
+
+    backdrop-filter: blur(3px);
+    
+    width: 100vw;
+    height: 5vw;
+
+    position: fixed;
+
+    box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
+    -moz-box-shadow: 10px 1px 101px -24px rgba(0,0,0,0.12);
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s;
+    z-index: 10;
+
+
 }

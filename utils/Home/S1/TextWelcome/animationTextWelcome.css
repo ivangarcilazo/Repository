@@ -241,16 +241,21 @@
 }
 
 .fixedBg{
-    background-color: #3d1c00;
+    background-color: #3d1c00aa;
+
+    backdrop-filter: blur(1px);
     animation-name: fixedbg;
     animation-duration:2.5s;
     animation-timing-function: ease;
     animation-iteration-count: 1;
     transition: all 0.5s;
 }
+.fixedBg:hover{
+    background-color: #3d1c00;
+}
 @keyframes fixedbg {
     0%{background-color:transparent ;}
     60%{background-color:transparent ;}
-    100%{background-color:#3d1c00 ;}
+    100%{background-color:#3d1c00aa ;}
 
 }
