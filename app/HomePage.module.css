@@ -11,7 +11,6 @@
     justify-content: start;
     align-items: center;
     z-index: 0;
-    margin-left: 5vw;
 }
 .text{
     margin-left: 5vw;
@@ -22,7 +21,7 @@
     position: absolute ;
     align-self: flex-end;
     z-index:-1;
-    width: 93.7vw;
+    width: 98.5vw;
     overflow-y: hidden;
 }
 

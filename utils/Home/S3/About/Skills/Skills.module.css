@@ -23,16 +23,16 @@
     align-items: center;
     animation: carrousel linear 30s infinite;
     gap: 1vw;
-    transform: translateX(-17.5vw);
+    transform: translateX(-24.5vw);
 }
 @keyframes carrousel {
     0%{
-        transform: translateX(-22.5vw);
+        transform: translateX(-24.5vw);
     }
     50%{
-        transform: translateX(22.5vw);
+        transform: translateX(24.5vw);
     }
-    100%{transform: translateX(-22.5vw);}
+    100%{transform: translateX(-24.5vw);}
 
 }
 
@@ -45,11 +45,11 @@
 }
 @keyframes carrouselI {
     0%{
-        transform: translateX(22.5vw);
+        transform: translateX(25.5vw);
     }
     50%{
-        transform: translateX(-22.5vw);
+        transform: translateX(-25.5vw);
     }
-    100%{transform: translateX(22.5vw);}
+    100%{transform: translateX(24.5vw);}
 
 }

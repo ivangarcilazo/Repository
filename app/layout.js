@@ -1,15 +1,13 @@
 import '../styles/globals.css'
 
-import Header from '@/components/Header/Header'
-
 export default function RootLayout ({ children }) {
   return (
     <html lang='en'>
       <head>
+        <link rel='shortcut icon' href='https://icon-library.com/images/web-designing-icon/web-designing-icon-22.jpg' />
         <title>Ivan G.</title>
       </head>
       <body>
-        <Header />
         {children}
       </body>
     </html>

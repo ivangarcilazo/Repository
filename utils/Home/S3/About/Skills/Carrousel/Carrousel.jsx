@@ -33,6 +33,10 @@ const skillsImage = [
   {
     alt: 'bootstrap',
     image: 'https://ivangarcilazo.github.io/repositoryIvanGarcilazo/assets/section-3/logos/bootstrap-logo.png'
+  },
+  {
+    alt: 'Sass',
+    image: 'https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png'
   }
 ]
 
