@@ -1,6 +1,5 @@
 import styles from './HomePage.module.css'
 
-
 import TextInit from '@/utils/Home/S1/TextWelcome/TextWelcome'
 import BackgroundAnimation from '@/utils/Home/S1/BackgroundAnimation/BackgroundAnimation'
 import Proyects from '@/utils/Home/S2/Proyects/Proyects'
