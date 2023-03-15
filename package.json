@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ivangarcilazo.github.io/Repository",
+  "homepage": "https://ivangarcilazo.github.io/deploy-repository",
   "name": "ivangarcilazo-rep",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@next/font": "13.2.3",
