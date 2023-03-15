@@ -1,0 +1,40 @@
+
+
+.container{
+    transform: translate(56vw, 20vw);
+    position: absolute;
+}
+.title{
+    font-size: 4vw;
+    color:#A3CAC1;
+}
+
+.containerImg{
+    width: 35vw;
+    height: 10vw;
+    overflow-x: hidden;
+
+ 
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: carrousel linear 5s infinite;
+    gap: 0.5vw;
+}
+@keyframes carrousel {
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(calc(9vw*7));
+    }
+
+}
+
+
+.image{
+    width: 9vw;
+}

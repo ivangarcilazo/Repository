@@ -1,0 +1,12 @@
+.title{
+    font-size:10vw;
+    position: absolute;
+    z-index: 2;
+    color: #AAD0C6;
+}
+.titlebg{
+    font-size: 15vw;
+    z-index: 0;
+    color: #345551ae;
+    user-select: none;
+}
