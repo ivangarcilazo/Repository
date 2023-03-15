@@ -16,8 +16,9 @@ export default function BackgroundAnimation () {
 
       <Image data-depth='0.6' src={wave1} className={styles.wave} />
 
-      <Image src={wave0} className={styles.wave} />
-
+      <div data-depth-y='0' className={styles.contWave}>
+        <Image src={wave0} className={styles.wave} />
+      </div>
     </Scene>
   )
 }

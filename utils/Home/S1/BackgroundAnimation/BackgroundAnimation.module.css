@@ -2,3 +2,7 @@
     filter:drop-shadow(1px 1px 3px #88888898);
     
 }
+.contWave{
+    display: flex;
+    overflow-x: hidden;
+}

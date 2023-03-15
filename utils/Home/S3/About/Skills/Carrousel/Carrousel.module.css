@@ -1,0 +1,29 @@
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: carrousel linear 30s infinite;
+    gap: 1vw;
+
+}
+@keyframes carrousel {
+    0%{
+        transform: translateX(-17vw);
+    }
+    50%{
+        transform: translateX(17vw);
+    }
+    100%{transform: translateX(-17vw);}
+
+}
+
+
+.image{
+    width: 9vw;
+    border-radius: 1vw;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+.image:hover{
+    filter: grayscale(0%);
+}

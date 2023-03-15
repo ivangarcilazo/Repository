@@ -1,10 +1,11 @@
 import styles from './HomePage.module.css'
-import { Poppins } from '@next/font/google'
+
 
 import TextInit from '@/utils/Home/S1/TextWelcome/TextWelcome'
 import BackgroundAnimation from '@/utils/Home/S1/BackgroundAnimation/BackgroundAnimation'
 import Proyects from '@/utils/Home/S2/Proyects/Proyects'
 import About from '@/utils/Home/S3/About/About'
+import { Poppins } from '@next/font/google'
 const font = Poppins({ weight: ['700', '500'], subsets: ['latin'] })
 
 export default function HomePage () {

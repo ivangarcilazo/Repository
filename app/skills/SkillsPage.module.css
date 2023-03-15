@@ -1,0 +1,9 @@
+.section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,22,19);
+    background: linear-gradient(0deg, rgba(2,22,19,0.9640231092436975) 37%, rgba(51,89,84,1) 93%);
+}

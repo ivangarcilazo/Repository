@@ -18,11 +18,11 @@ const dataLabels = [
   {
     image: aboutImage,
     label: 'About',
-    route: '/personal-proyects'
+    route: '/about'
   }, {
     image: skillsImage,
     label: 'Skills',
-    route: '/personal-proyects'
+    route: '/skills'
   },
   {
     image: proyectImage,

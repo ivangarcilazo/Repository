@@ -21,20 +21,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: carrousel linear 5s infinite;
-    gap: 0.5vw;
+    animation: carrousel linear 30s infinite;
+    gap: 1vw;
+    transform: translateX(-17.5vw);
 }
 @keyframes carrousel {
     0%{
-        transform: translateX(0%);
+        transform: translateX(-22.5vw);
     }
     50%{
-        transform: translateX(calc(9vw*7));
+        transform: translateX(22.5vw);
     }
+    100%{transform: translateX(-22.5vw);}
 
 }
 
+.sliderInverted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: carrouselI linear 30s infinite;
+    gap: 1vw;
+}
+@keyframes carrouselI {
+    0%{
+        transform: translateX(22.5vw);
+    }
+    50%{
+        transform: translateX(-22.5vw);
+    }
+    100%{transform: translateX(22.5vw);}
 
-.image{
-    width: 9vw;
 }
