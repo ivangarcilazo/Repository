@@ -12,13 +12,11 @@ import Scene from './Scene/Scene'
 export default function BackgroundAnimation () {
   return (
     <Scene className={styles.scene}>
-      <Image data-depth='1.3' src={wave2} className={styles.wave} />
+      <Image data-depth='1.3' fill src={wave2} className={styles.wave} />
 
-      <Image data-depth='0.6' src={wave1} className={styles.wave} />
+      <Image data-depth='0.6' fill src={wave1} className={styles.wave} />
 
-      <div data-depth-y='0' className={styles.contWave}>
-        <Image src={wave0} className={styles.wave} />
-      </div>
+      <Image data-depth-y='0' fill src={wave0} className={styles.wave} />
     </Scene>
   )
 }

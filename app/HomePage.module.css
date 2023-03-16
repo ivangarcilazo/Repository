@@ -27,9 +27,8 @@
 
 .section2{
     background: rgb(81,128,122);
-background: linear-gradient(0deg, rgba(81,128,122,1) 19%, rgba(208,242,231,1) 73%);
-width: 100%;
-
+    background: linear-gradient(0deg, rgba(81,128,122,1) 19%, rgba(208,242,231,1) 73%);
+    width: 100%;
     position: relative;
     z-index: 2;
     display: flex;
@@ -37,7 +36,7 @@ width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 4vw;
-
+    
     padding-top: 5vw;
 }
 
